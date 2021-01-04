@@ -1,0 +1,17 @@
+set selection-clipboard clipboard
+set statusbar-h-padding 0
+set statusbar-v-padding 0
+set page-padding 1
+map r reload
+map R rotate
+map K zoom in
+map J zoom out
+map i recolor
+set default-bg "#002b36"
+set recolor true
+#set recolor-lightcolor "#002b36"
+#set recolor-darkcolor "#f0f0f0"
+set recolor-lightcolor "#000000"
+set recolor-darkcolor "#00ff00"
+
+map C exec 'urxvt -hold -e sh -c "pdftotext $FILE - | wc"'
